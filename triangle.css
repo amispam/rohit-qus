@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.qusgrid{
+    display: grid;
+    width: 95%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.qus{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    min-height: 600px;
+    border:1px solid black;
+    align-items: center;
+    background:black;
+    color:white;
+}
+.qus > div {
+    width:95%;
+    display: flex;
+    justify-content: center;
+}
+.special{
+    min-height:500px;
+}
+iframe{
+    width:90%;
+}
